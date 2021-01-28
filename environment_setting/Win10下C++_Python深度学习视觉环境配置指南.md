@@ -224,3 +224,4 @@ setup脚本的工具和样例:
 + index server搭建
 + vs c++配置
 + linux常用命令在powershell中的等效
++ 
