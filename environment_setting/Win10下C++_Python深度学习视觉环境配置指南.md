@@ -1,5 +1,43 @@
 # Win10下C++/Python深度学习视觉环境配置指南
 
+## 目录
+- [Win10下C++/Python深度学习视觉环境配置指南](#win10下cpython深度学习视觉环境配置指南)
+  - [目录](#目录)
+  - [前言](#前言)
+    - [pros & cons](#pros--cons)
+    - [目标](#目标)
+  - [0. 系统安装](#0-系统安装)
+  - [1. Visual Studio](#1-visual-studio)
+  - [2. Cuda](#2-cuda)
+  - [3. Anaconda3](#3-anaconda3)
+    - [3.1. PowerShell中conda支持](#31-powershell中conda支持)
+    - [3.2. conda换源](#32-conda换源)
+    - [3.3. pip换源](#33-pip换源)
+  - [4. 工具及配置](#4-工具及配置)
+    - [4.1. Git for Windows(实际主要为了bash)](#41-git-for-windows实际主要为了bash)
+    - [4.2. VS Code](#42-vs-code)
+    - [4.3. Github desktop](#43-github-desktop)
+    - [4.4. 7zip](#44-7zip)
+    - [4.5. Snipaste](#45-snipaste)
+    - [4.6. PyCharm](#46-pycharm)
+  - [5. Python环境配置&Trouble shooting](#5-python环境配置trouble-shooting)
+    - [5.0. conda虚拟环境](#50-conda虚拟环境)
+    - [5.1. pip](#51-pip)
+    - [5.2. 一些特殊包](#52-一些特殊包)
+    - [5.3. 路径](#53-路径)
+    - [5.4. 环境迁移(待完善)](#54-环境迁移待完善)
+      - [5.4.1. requirements+/conda yaml/spec list(待完善)](#541-requirementsconda-yamlspec-list待完善)
+      - [5.4.2 conda pack(待完善)](#542-conda-pack待完善)
+  - [6. C++环境(待完善)](#6-c环境待完善)
+    - [6.1. Boost(待完善)](#61-boost待完善)
+    - [6.2. OpenCV-C++(待完善)](#62-opencv-c待完善)
+  - [7. Trouble Shooting](#7-trouble-shooting)
+    - [7.1. pip常见错误](#71-pip常见错误)
+    - [7.2. conda常见错误](#72-conda常见错误)
+    - [7.3. 依赖/模型下载问题](#73-依赖模型下载问题)
+      - [7.3.1. 判别是否在集群](#731-判别是否在集群)
+      - [7.3.2. index server](#732-index-server)
+
 ## 前言
 ### pros & cons
 1. pro: 场景,工业视觉很多场景客户就是要求在Windows平台,win10甚至win7等环境下.So,不得不用Windows.
