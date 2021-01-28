@@ -68,6 +68,7 @@
 1. 中文设置https://blog.csdn.net/qq_30068487/article/details/82589347
 2. 如果选择了加入环境变量中,那么在powershell里就可以类似于linux下的方式`code xxx.txt`进行操作了.
 3. 为啥不用Notepad++(政治原因不喜欢)
+4. Markdown All in One插件,非常好用(加目录)
 
 ### 4.3. Github desktop
 [Github desktop](https://desktop.github.com/)  
