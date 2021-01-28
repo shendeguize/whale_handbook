@@ -37,6 +37,7 @@
     - [7.3. 依赖/模型下载问题](#73-依赖模型下载问题)
       - [7.3.1. 判别是否在集群](#731-判别是否在集群)
       - [7.3.2. index server](#732-index-server)
+  - [8. TBD](#8-tbd)
 
 ## 前言
 ### pros & cons
@@ -219,3 +220,7 @@ resnest_model_urls_gpu = {name: _url_format_gpu.format(name, short_hash(name)) f
 setup脚本的工具和样例:
 (待更新,预计二月中更新.)
 
+## 8. TBD
++ index server搭建
++ vs c++配置
++ linux常用命令在powershell中的等效
