@@ -113,6 +113,8 @@
 [Github desktop](https://desktop.github.com/)  
 非常好用的Git管理可视化工具.
 
+附: [gitignore](https://github.com/github/gitignore)
+
 ### 4.4. 7zip
 [7zip](https://sparanoid.com/lab/7z/)  
 干净清爽,解压在右键菜单里
