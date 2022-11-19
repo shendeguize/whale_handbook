@@ -20,6 +20,7 @@ The author is mainly developing c++ and python on remote linux server using loca
     Otherwise, just open windows store and search Windows Terminal and install.
     ![image](https://user-images.githubusercontent.com/30931540/202843289-6940826e-fa7a-4ac2-b90d-eb5334c45dd5.png)
     Or you could install by yourself according to [https://github.com/microsoft/terminal](https://github.com/microsoft/terminal).
-2. 
-
-TBD......
+2. Powershell
+    I strongly recommend you to use latest version of Powershell.
+    Just like win-terminal, you could also install latest Powershell from windows store.
+    
