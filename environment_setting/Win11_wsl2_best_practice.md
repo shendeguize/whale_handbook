@@ -30,7 +30,11 @@ The author is mainly developing c++ and python on remote linux server using loca
     ![image](https://user-images.githubusercontent.com/30931540/202860513-2eaa5a5c-c437-486a-abc3-2a61682551a6.png)
     ![image](https://user-images.githubusercontent.com/30931540/202860531-7dcb9504-c26d-4dc6-a291-27107a3b35f6.png)
     ![image](https://user-images.githubusercontent.com/30931540/202860583-7e618960-5d55-4bef-9c38-67d88ba4e74e.png)
-4. Fonts and oh-my-posh
-
+4. WSL2
+    1. First edit your bios to enable intel virual technology.
+    2. Then pick up these features
+        ![image](https://user-images.githubusercontent.com/30931540/202886651-b9efa1ab-50ec-4d4f-b798-019d1d9efea0.png)
+    2. 
+    
 
 ...TBD...
