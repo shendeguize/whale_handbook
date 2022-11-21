@@ -55,7 +55,9 @@ The author is mainly developing c++ and python on remote linux server using loca
             mkdir $YOUR_DISTO
             wsl --import $YOUR_DISTO $YOUR_DISTO $YOUR_DISTO.tar
             ```
-        6. Some advised mount:  
+        6. How to enter wsl from powershell and exit from wsl:  
+            Just use `bash` in powershell, then you would enter wsl. Use `Ctrl + D` in wsl, then you would quit back to powershell.
+        7. Some advised mount:  
             Outside wsl:  
             ```
             cd $YOUR_WSL_WORKSPACE
