@@ -78,13 +78,23 @@ The author is mainly developing c++ and python on remote linux server using loca
             sudo apt install htop
             ```
             ```
-            code ~/.bash_aliases
+            vim ~/.bash_aliases
             ```            
-            Paste and edit these in vscode:  
+            Paste and edit these:  
             ```
             # ~/.bash_aliases
             alias ll="ls -alF"
             ```  
+            ```
+            vim ~/.bash_profile
+            ```  
+            Paste and edit these:  
+            ```
+            # ~/.bash_profile
+            if [[ -f ~/.bashrc ]] ; then
+                . ~/.bashrc
+            fi
+            ```   
             Setup wsl2 according to [https://learn.microsoft.com/en-us/windows/wsl/wsl-config#example-wslconfig-file](https://learn.microsoft.com/en-us/windows/wsl/wsl-config#example-wslconfig-file).  
             ```
             [wsl2]
