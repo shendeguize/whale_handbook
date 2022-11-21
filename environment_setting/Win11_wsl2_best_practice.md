@@ -32,7 +32,7 @@ The author is mainly developing c++ and python on remote linux server using loca
 4. WSL2
     1. First edit your bios to enable intel virual technology.  
     2. Then pick up these features  
-        ![image](https://user-images.githubusercontent.com/30931540/202886651-b9efa1ab-50ec-4d4f-b798-019d1d9efea0.png)  
+        ![image](https://user-images.githubusercontent.com/30931540/203073099-e76c3aae-e064-485f-83e4-0deddaafd626.png)
     3. Then just follow this official guide: [https://learn.microsoft.com/en-us/windows/wsl/install](https://learn.microsoft.com/en-us/windows/wsl/install)  
         1. Set wsl default version to wsl2.
             ```wsl --set-default-version 2```
