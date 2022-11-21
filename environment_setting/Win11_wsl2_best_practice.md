@@ -1,6 +1,7 @@
 # Win11 with wsl2 best practice for developing(C++/Python/Remote-development)
 @Auther: https://github.com/shendeguize  
 @Date: 2022.11.21  
+
 ## preamble
 The author is mainly developing c++ and python on remote linux server using local win11 platform. Thus this note would be directly helpful for those developer who work same way as me.
 1. Why win11 rather than linux?
@@ -131,7 +132,26 @@ The author is mainly developing c++ and python on remote linux server using loca
             ```
         If nothing wrong, your terminal would be like:  
         ![image](https://user-images.githubusercontent.com/30931540/203068531-09f89005-bf18-4881-8587-a5d5510e4240.png)
-7. 
-    
 
-...TBD...
+## Other Tools or Applications:
+1. [Github Desktop](https://desktop.github.com/)
+2. [JetBrains](https://www.jetbrains.com/)
+3. [mobaxterm](https://mobaxterm.mobatek.net/)
+4. [Motrix](https://motrix.app/)
+5. [XShell](https://www.xshell.com/)
+
+## Tricks or Appendices
+1. Automatically sync remote folder to local drive in case fault occured.
+    Use crontab. Here is a sample for command or script  
+    ```
+    rsync -vhra $remote_alias:$remote_dir/$project_name $local_dir --include='**.gitignore' --filter=':- .gitignore' --delete-after
+    ```
+    These are for file mode change diff:  
+    ```
+    git submodule foreach git config core.filemode false
+    git config core.filemode false
+    ```  
+    Reset:  
+    ```
+    # git config --unset core.filemode
+    ```  
