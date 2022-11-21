@@ -139,6 +139,7 @@ The author is mainly developing c++ and python on remote linux server using loca
 3. [mobaxterm](https://mobaxterm.mobatek.net/)
 4. [Motrix](https://motrix.app/)
 5. [XShell](https://www.xshell.com/)
+6. clang-format(wsl)
 
 ## Tricks or Appendices
 1. Automatically sync remote folder to local drive in case fault occured.
