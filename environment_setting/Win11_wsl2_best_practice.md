@@ -1,7 +1,6 @@
 # Win11 with wsl2 best practice for developing(C++/Python/Remote-development)
 @Auther: https://github.com/shendeguize  
-@Date: 2022.11.19  
-
+@Date: 2022.11.21  
 ## preamble
 The author is mainly developing c++ and python on remote linux server using local win11 platform. Thus this note would be directly helpful for those developer who work same way as me.
 1. Why win11 rather than linux?
@@ -72,8 +71,21 @@ The author is mainly developing c++ and python on remote linux server using loca
         1. "无法解析服务器的名称或地址"  
             [https://github.com/microsoft/WSL/issues/8025#issuecomment-1256886006](https://github.com/microsoft/WSL/issues/8025#issuecomment-1256886006)  
         2. "WslRegisterDistribution failed with error: 0x800701bc Error: 0x800701bc WSL 2 ?????????????????? https://aka.ms/wsl2kernel"  
-            This fault means you're missing wsl2kernel. Download and install from here: 
-            
+            This fault means you're missing wsl2kernel. Download and install from here: [https://learn.microsoft.com/zh-cn/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package](https://learn.microsoft.com/zh-cn/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package)  
+5. Git for windows  
+    1. Download installation package from [https://git-scm.com/download/win](https://git-scm.com/download/win).  
+    2. **Before you install git, you should install vscode first!**  
+    3. Notice some options I recommend you to change as listed:  
+        1. Use vscode as default editor.  
+            ![image](https://user-images.githubusercontent.com/30931540/203053531-dc58c9a1-0198-4477-9e7a-d415bb5ddadb.png)
+        2. I strongly recommend you to use unix-style line finish!  
+            ![image](https://user-images.githubusercontent.com/30931540/203053880-f68ee627-54f5-4d74-bcb0-f0ecdba48162.png)
+        3. Enable symbolic links.  
+            ![image](https://user-images.githubusercontent.com/30931540/203054072-3781afaf-7bb3-485c-b005-b9881cbb0fea.png)
+    4. Update system PATH.  
+        ![image](https://user-images.githubusercontent.com/30931540/203054604-a6effa45-d5f5-4f71-9479-c7816b78730d.png)  
+        Add `$GIT_ROOT\bin` and `$GIT_ROOT\mingw64\bin`. The latter would be helpful when setting ssh config and using connect.exe.  
+6. 
     
 
 ...TBD...
