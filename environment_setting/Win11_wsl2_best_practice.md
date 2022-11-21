@@ -85,6 +85,15 @@ The author is mainly developing c++ and python on remote linux server using loca
             # ~/.bash_profile
             alias ll="ls -alh"
             ```  
+            Setup wsl2 according to [https://learn.microsoft.com/en-us/windows/wsl/wsl-config#example-wslconfig-file](https://learn.microsoft.com/en-us/windows/wsl/wsl-config#example-wslconfig-file).  
+            ```
+            [wsl2]
+            memory=24GB
+            processors=4
+            swap=8GB
+            localhostforwarding=true
+            nestedVirtualization=false
+            ```
     4. Troubleshooting:
         1. "无法解析服务器的名称或地址"  
             [https://github.com/microsoft/WSL/issues/8025#issuecomment-1256886006](https://github.com/microsoft/WSL/issues/8025#issuecomment-1256886006)  
