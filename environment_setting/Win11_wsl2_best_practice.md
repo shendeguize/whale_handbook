@@ -78,12 +78,12 @@ The author is mainly developing c++ and python on remote linux server using loca
             sudo apt install htop
             ```
             ```
-            code ~/.bash_profile
+            code ~/.bash_aliases
             ```            
             Paste and edit these in vscode:  
             ```
-            # ~/.bash_profile
-            alias ll="ls -alh"
+            # ~/.bash_aliases
+            alias ll="ls -alF"
             ```  
             Setup wsl2 according to [https://learn.microsoft.com/en-us/windows/wsl/wsl-config#example-wslconfig-file](https://learn.microsoft.com/en-us/windows/wsl/wsl-config#example-wslconfig-file).  
             ```
@@ -167,3 +167,23 @@ The author is mainly developing c++ and python on remote linux server using loca
     ```
     # git config --unset core.filemode
     ```  
+2. Anaconda
+    1. Enable powershell remote-signed (https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7.3)[https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7.3]  
+        Open powershell under admin.  
+        ```
+        Set-ExecutionPolicy RemoteSigned
+        ```  
+    2. Edit PATH  
+        ![image](https://user-images.githubusercontent.com/30931540/203090221-c45ebbd5-85a3-4780-839a-26b466758825.png)
+    3. Init conda in powershell (needs to reopen a new admin terminal):  
+        ```
+        conda init powershell
+        ```  
+3. KeyBoard mappings  
+    1. I prefer delete `Ctrl + C` and `Ctrl + V`, as these might cause misleading.  
+        ![image](https://user-images.githubusercontent.com/30931540/203091456-6fe1d77b-7546-429a-b86e-56491ad2cc6c.png)  
+        ![image](https://user-images.githubusercontent.com/30931540/203091546-60a68a1f-ad24-445e-9d4f-5f0b65b95d36.png)  
+
+
+    
+        
